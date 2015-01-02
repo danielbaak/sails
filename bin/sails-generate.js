@@ -52,7 +52,7 @@ module.exports = function() {
 
   // Show usage if no generator type is defined
   if (!scope.generatorType) {
-    return cb.log.error('Usage: sails generate [something]');
+    return cb.log.error('Usage: sails generate [something]\n Valid generators include model, controller, api.');
   }
 
   // Set the "invalid" exit to forward to "error"
